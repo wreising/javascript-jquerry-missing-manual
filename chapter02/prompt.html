@@ -5,11 +5,12 @@
 <title>Using a Variable, Part II</title>
 <link href="../_css/site.css" rel="stylesheet">
 <script>
-
+	var name = prompt("What is your name?", "");
 </script>
 </head>
 
 <body>
+<div class="wrapper">
   <header>
     JAVASCRIPT <span class="amp">&amp;</span> jQUERY: THE&nbsp;MISSING&nbsp;MANUAL
   </header>
@@ -17,7 +18,7 @@
     <div class="main">
       <h1>Using a Variable, Part II</h1>
       <script>
-		
+		document.write("<p>Welcome, " + name +"</p");
       </script>
     </div>
   </div>
